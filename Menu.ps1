@@ -36,7 +36,7 @@ do {
 
     switch ($opcion) {
         '1' { Ejecutar-Script "" }
-        '2' { Ejecutar-Script "https://raw.githubusercontent.com/Vaquerow/posible-ss/refs/heads/main/bamparserfuncional.ps1" }
+        '2' { Ejecutar-Script "https://raw.githubusercontent.com/OryzonSS/OryzonSS/refs/heads/main/Bamparser.ps1" }
         '3' { Ejecutar-Script "" }
         '4' { Ejecutar-Script "" }
         '0' {
