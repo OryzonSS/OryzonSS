@@ -3,10 +3,10 @@ Clear-Host
 function Mostrar-Menu {
     Write-Host ""
     Write-Host "======= MENÚ DE SCRIPTS ========" -ForegroundColor DarkGreen
-    Write-Host "1. Analizador de Jars"
+    Write-Host "1. EN DESARROLLO"
     Write-Host "2. Analizador de Exes"
     Write-Host "3. EN DESAROLLO"
-    Write-Host "4. Analizador de DLLs (EN DESAROLLO)"
+    Write-Host "4. EN DESAROLLO"
     Write-Host "0. Salir"
     Write-Host "===============================" -ForegroundColor DarkGreen
 }
@@ -35,7 +35,7 @@ do {
     $opcion = Read-Host "Selecciona una opción (0-4)"
 
     switch ($opcion) {
-        '1' { Ejecutar-Script "https://raw.githubusercontent.com/Vaquerow/posible-ss/refs/heads/main/jarparserfuncional.ps1" }
+        '1' { Ejecutar-Script "" }
         '2' { Ejecutar-Script "https://raw.githubusercontent.com/Vaquerow/posible-ss/refs/heads/main/bamparserfuncional.ps1" }
         '3' { Ejecutar-Script "" }
         '4' { Ejecutar-Script "" }
